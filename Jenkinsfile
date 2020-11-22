@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-				bat 'dotnet build D:\\GITRepository\\DotNetCore\\WEBAPISERVICE\\WEBAPISERVICE.csproj'
+				bat 'D:\GITRepository\DotNetCore\PublishAll.bat'
             }
         }
         stage('Test') {
