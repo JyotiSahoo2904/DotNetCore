@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-				bat 'CALL PublishAll.bat'
+				bat 'CALL https://github.com/JyotiSahoo2904/DotNetCore/PublishAll.bat'
             }
         }
         stage('Test') {
