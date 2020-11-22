@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPISERVICE", "WEBAPISERVICE\WEBAPISERVICE.csproj", "{3C817348-4758-43A7-BE3D-3F47F584B2CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEBAPISERVICE", "WEBAPISERVICE\WEBAPISERVICE.csproj", "{3C817348-4758-43A7-BE3D-3F47F584B2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingService", "LoggingService\LoggingService.csproj", "{AA6F34BB-209B-44F6-9A69-2CD4FA46C10B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3C817348-4758-43A7-BE3D-3F47F584B2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C817348-4758-43A7-BE3D-3F47F584B2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C817348-4758-43A7-BE3D-3F47F584B2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6F34BB-209B-44F6-9A69-2CD4FA46C10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6F34BB-209B-44F6-9A69-2CD4FA46C10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6F34BB-209B-44F6-9A69-2CD4FA46C10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6F34BB-209B-44F6-9A69-2CD4FA46C10B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
