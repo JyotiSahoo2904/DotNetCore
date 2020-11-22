@@ -1,0 +1,27 @@
+pipeline {
+    agent { 
+    label 'win-slave-node'
+  }
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+				script {
+				  def msbuild = tool name: 'MSBuild', type: 'hudson.plugins.msbuild.MsBuildInstallation'
+				  bat "${msbuild} WEBAPISERVICE.sln"
+				} 
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
