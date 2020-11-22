@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-				bat 'D:\GITRepository\DotNetCore\PublishAll.bat'
+                echo 'Building..'				
+				bat 'start cmd.exe /c D:\GITRepository\DotNetCore\PublishAll.bat'
             }
         }
         stage('Test') {
